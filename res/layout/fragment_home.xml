@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33B5FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari Ini : 0 / 2000 ml"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/img_gelas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_water_glass"
+            android:scaleY="10"
+            android:scaleX="10"
+            android:scaleType="centerInside"/>
+
+        <Button
+            android:id="@+id/btn_tambah_minum_di_gelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#80000000"
+            android:text="+ TAMBAH MINUM"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

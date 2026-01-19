@@ -1,0 +1,8 @@
+<resources>
+    <color name="main_blue">#33B5FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparant">#33B5FF</color>
+    <color name="muted">#736A6A</color>
+    <color name="night_background">#121212</color>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33B5FF"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/btnBackJadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt; Kembali"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:text="Tambah Jadwal"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Jam berapa?"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputJam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Contoh: 08:00 AM"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Pilih Cepat"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:columnCount="2">
+
+        <Button android:id="@+id/btn07am" android:layout_margin="5dp" android:layout_columnWeight="1" android:text="07:00 AM" />
+        <Button android:id="@+id/btn12am" android:layout_margin="5dp" android:layout_columnWeight="1" android:text="12:00 PM" />
+        <Button android:id="@+id/btn05pm" android:layout_margin="5dp" android:layout_columnWeight="1" android:text="05:00 PM" />
+        <Button android:id="@+id/btn09pm" android:layout_margin="5dp" android:layout_columnWeight="1" android:text="09:00 PM" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnSimpanJadwal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Simpan"
+        android:textColor="#000000" />
+
+</LinearLayout>

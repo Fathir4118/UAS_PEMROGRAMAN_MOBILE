@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- THEME UTAMA APP -->
+    <style name="Theme.JeNotes" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
