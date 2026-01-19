@@ -12,9 +12,6 @@ DOSEN: Donny Maulana, S.Kom., M.M.S.I.
 
 ---
 
-## LINK CLICKUP
-https://app.clickup.com/90181768487/v/b/s/90187329866
-
 ## ClickUp Project Management
 **Deskripsi:**  
 Proses perencanaan, pembagian tugas, dan progress proyek dikelola melalui platform **ClickUp** untuk menjaga workflow tim secara teratur dan terukur.
